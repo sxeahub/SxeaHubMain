@@ -1,11 +1,11 @@
--- TeamSxea<3
--- https://discord.gg/Y7QhKfnpn3
--- DONT EDIT THIS BEYOND IF YOU DON'T KNOW WHAT YOUR DOING!!
--- HAPPY EXPLOITING
+--[[
+    TeamSxea Community
+    WARNING! DO NOT EXECUTE THIS SCRIPT! INSTEAD EXECUTE THE SCRIPT FROM THE SERVER! 
+]]
 
-if game.PlaceId == 286090429 then 
+if game.PlaceId == 286090429 then --Arsenal
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain"),true))()
 
-elseif game.PlaceId == 928523870 then
+elseif game.PlaceId == 928523870 then --Race Clicker
     loadstring(game:Httpget(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClickerSxeaHubMain"),true))()
 end
