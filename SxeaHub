@@ -4,9 +4,9 @@
 -- HAPPY EXPLOITING
 
 if game.PlaceId == 286090429 then 
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain'),true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain"),true))()
 end
 
 if game.PlaceId == 9285238704 then
-    loadstring(game:Httpget(('https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClickerSxeaHubMain'),true))()
+    loadstring(game:Httpget(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClickerSxeaHubMain"),true))()
 end
