@@ -7,6 +7,6 @@
 if game.PlaceId == 286090429 then --Arsenal
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain"),true))()
 
-elseif game.PlaceId == 928523870 then --Race Clicker
+elseif game.PlaceId == 9285238704 then --Race Clicker
     loadstring(game:Httpget(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClickerSxeaHubMain"),true))()
 end
