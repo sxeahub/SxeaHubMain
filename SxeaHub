@@ -4,9 +4,34 @@
     https://discord.gg/Y7QhKfnpn3 
 ]]
 
-if game.PlaceId == 286090429 then --Arsenal
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain"),true))()
+--[[
+    TeamSxea Community
+    WARNING! DO NOT EXECUTE THIS SCRIPT! INSTEAD EXECUTE THE SCRIPT FROM THE SERVER! 
+]]
 
-elseif game.PlaceId == 9285238704 then --Race Clicker
-    loadstring(game:Httpget(("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClickerSxeaHubMain"),true))()
+--RaceClicker
+
+if game.PlaceId == 9285238704 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/RaceClicker")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
 end
+
+--Arsenal
+
+if game.PlaceId == 286090429 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/ArsenalSxeaHubMain")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
+
