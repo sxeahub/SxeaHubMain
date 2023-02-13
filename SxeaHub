@@ -1,6 +1,11 @@
 --[[
-    TeamSxea Community
-    WARNING! DO NOT EXECUTE THIS SCRIPT! INSTEAD EXECUTE THE SCRIPT FROM THE SERVER!
+    
+    _$$$$$__ ________ _______ _______ $$___$$_ _______ $$_____
+    $$___$$_ $$___$$_ _$$$$__ $$$$$__ $$___$$_ _______ $$_____
+    _$$$____ _$$_$$__ $$__$$_ ____$$_ $$$$$$$_ $$__$$_ $$$$$__
+    ___$$$__ __$$$___ $$$$$$_ _$$$$$_ $$___$$_ $$__$$_ $$__$$_
+    $$___$$_ _$$_$$__ $$_____ $$__$$_ $$___$$_ $$__$$_ $$__$$_
+    _$$$$$__ $$___$$_ _$$$$$_ _$$$$$_ $$___$$_ _$$$_$_ _$$$$__
     https://discord.gg/Y7QhKfnpn3 
 ]]
 
@@ -30,3 +35,14 @@ if game.PlaceId == 286090429 then
     end
 end
 
+-- BoogaBooga [REBORN]
+if game.PlaceId == 11729688377 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/BoogaBooga")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
