@@ -46,3 +46,15 @@ if game.PlaceId == 11729688377 then
         warn(result)
     end
 end
+
+-- Doomspire Brickbattle
+if game.PlaceId == 1215581239 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/DoomspireBrickbattle")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
