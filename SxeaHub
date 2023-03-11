@@ -70,3 +70,15 @@ if game.PlaceId == 5938036553 then
         warn(result)
     end
 end
+
+-- FRONTLINES
+if game.PlaceId == 292439477 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/PhantomForces")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
