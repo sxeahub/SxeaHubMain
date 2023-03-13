@@ -3,7 +3,7 @@
     _$$$$$__ ________ _______ _______ $$___$$_ _______ $$_____
     $$___$$_ $$___$$_ _$$$$__ $$$$$__ $$___$$_ _______ $$_____
     _$$$____ _$$_$$__ $$__$$_ ____$$_ $$$$$$$_ $$__$$_ $$$$$__
-    ___$$$__ __$$$___ $$$$$$_ _$$$$$_ $$___$$_ $$__$$_ $$__$$_
+    ___$$$__ __$$$___ $$$$$$_ _$$$$$_ $$___$$_ $$__$$_ $$__$$_  i will always love vanessa
     $$___$$_ _$$_$$__ $$_____ $$__$$_ $$___$$_ $$__$$_ $$__$$_
     _$$$$$__ $$___$$_ _$$$$$_ _$$$$$_ $$___$$_ _$$$_$_ _$$$$__
     https://discord.gg/Y7QhKfnpn3 
@@ -75,6 +75,18 @@ end
 if game.PlaceId == 292439477 then
     local success, result = pcall(function()
         local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/PhantomForces")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
+
+-- Ninja Legends
+if game.PlaceId == 3956818381 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/Ninja%20Legends")
         return loadstring(script)()
     end)
 
