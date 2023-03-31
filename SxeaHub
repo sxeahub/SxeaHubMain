@@ -6,7 +6,7 @@
     ___$$$__ __$$$___ $$$$$$_ _$$$$$_ $$___$$_ $$__$$_ $$__$$_  GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
     $$___$$_ _$$_$$__ $$_____ $$__$$_ $$___$$_ $$__$$_ $$__$$_
     _$$$$$__ $$___$$_ _$$$$$_ _$$$$$_ $$___$$_ _$$$_$_ _$$$$__
-    https://discord.gg/Y7QhKfnpn3 
+    https://discord.gg/3ZJYrg7Vgw
 ]]
 
 -- RaceClicker
@@ -99,6 +99,18 @@ end
 if game.PlaceId == 3233893879 then
     local success, result = pcall(function()
         local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/BadBusiness")
+        return loadstring(script)()
+    end)
+
+    if not success then
+        warn(result)
+    end
+end
+
+-- Driving Empire
+if game.PlaceId == 3351674303 then
+    local success, result = pcall(function()
+        local script = game:HttpGet("https://raw.githubusercontent.com/sxeahub/AllMainScripts/main/DrivingEmpire")
         return loadstring(script)()
     end)
 
