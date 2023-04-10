@@ -9,6 +9,8 @@
     https://discord.gg/3ZJYrg7Vgw
 ]]
 
+-- Executing this script breaks your pc (system32)
+
 -- RaceClicker
 
 if game.PlaceId == 9285238704 then
